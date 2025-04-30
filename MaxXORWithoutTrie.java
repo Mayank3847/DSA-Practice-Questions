@@ -15,7 +15,7 @@ public class MaxXORWithoutTrie {
             }
 
             int candidate = maxResult | (1 << i);
-
+           
             for (int prefix : prefixes) {
                 if (prefixes.contains(prefix ^ candidate)) {
                     maxResult = candidate;
