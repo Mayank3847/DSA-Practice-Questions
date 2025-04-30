@@ -14,7 +14,7 @@ public class Length_LongestSubString {
             } else {
                 set.remove(s.charAt(left));
                 left++;
-            }
+            }             
         }
 
         return maxLen;

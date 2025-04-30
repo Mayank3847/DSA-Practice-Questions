@@ -18,7 +18,7 @@ public class Permutations {
         for (int i = 0; i < nums.length; i++) {
             if (current.contains(nums[i])) continue;  // Skip duplicates
             current.add(nums[i]);
-            backtrack(nums, current, result);
+            backtrack(nums, current, result);              
             current.remove(current.size() - 1);  // Backtrack
         }
     }

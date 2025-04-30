@@ -1,4 +1,4 @@
-//Write a program to find the sum of elements in a given range [L, R] using a prefix sum 
+  //Write a program to find the sum of elements in a given range [L, R] using a prefix sum 
 
 public class QueryRange {
     public static int rangeSum(int[] arr, int L, int R) {

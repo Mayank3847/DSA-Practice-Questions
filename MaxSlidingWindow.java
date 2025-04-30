@@ -17,7 +17,7 @@ public class MaxSlidingWindow {
             // Remove elements that are out of the current window
             if (!deque.isEmpty() && deque.peekFirst() < i - k + 1) {
                 deque.pollFirst();
-            }
+            }   
 
             // Remove all elements smaller than the current element
             while (!deque.isEmpty() && nums[deque.peekLast()] <= nums[i]) {
